@@ -1,0 +1,34 @@
+
+.temp-card{
+    width: 20rem;
+    height: 30rem;
+    background-color:black;
+    box-shadow: 10px 10px ;
+    color: aliceblue;
+}
+
+.title{
+    text-shadow: 1px 1px rgb(146, 136, 136);
+    text-transform: capitalize;
+    
+    
+}
+
+.city-name{
+    text-shadow: 1px 1px rgb(146, 136, 136);
+    text-transform: capitalize;
+    font-size: xx-large;
+   
+}
+
+.search-box{
+border-radius: 25px;
+box-shadow: 4px 4px;
+margin-bottom: 50px;
+text-transform: capitalize;
+}
+
+.loction-icon{
+    font-size: xx-large;
+    color: blue;
+}
