@@ -8,7 +8,7 @@ const Main = () => {
   const [search, setSearch] = useState("mumbai");
   useEffect(() => {
     const tempApi = async () =>{
-      const apiKey = "cafbc07d3044203137b871d5cc33c239";
+      const apiKey = "";
       const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=${apiKey}`
       const response = await fetch(apiURL);
       const responseJson = await response.json()
